@@ -6,9 +6,13 @@
     <title>Laxman_Desai</title>
     <link href="style.css" rel="stylesheet">
     <link href="mediaqueries.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.css" />
 </head>
 <body>
+  
     <body>
+      
+      
         <nav id="desktop-nav">
           <div class="logo">Laxman Desai</div>
           <div>
@@ -36,7 +40,10 @@
             </div>
           </div>
         </nav>
-        <section id="profile">
+
+        <div data-aos="fade-up">
+          <!-- Your content here -->
+        <section id="profile" class="scroll-animate" data-aos="fade-up">
           <div class="section__pic-container">
             <img src="./assets/myprof1.png" alt="Laxman Desai profile picture" />
           </div>
@@ -61,7 +68,7 @@
             </div>
           </div>
         </section>
-        <section id="about">
+        <section id="about" class="scroll-animate" data-aos="fade-up">
           <p class="section__text__p1">Get To Know More</p>
           <h1 class="title">About Me</h1>
           <div class="section-container">
@@ -98,7 +105,7 @@
           </div>
           <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'"/>
         </section>
-        <section id="experience">
+        <section id="experience" class="scroll-animate" data-aos="fade-up">
           <p class="section__text__p1">Explore My</p>
           <h1 class="title">Experience</h1>
           <div class="experience-details-container">
@@ -227,7 +234,7 @@
           </div>
           <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'"/>
         </section>
-        <section id="projects">
+        <section id="projects" class="scroll-animate" data-aos="fade-up">
           <p class="section__text__p1">Browse My Recent</p>
           <h1 class="title">Projects</h1>
           <div class="experience-details-container">
@@ -309,7 +316,7 @@
           </div>
           <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'"/>
         </section>
-        <section id="contact">
+        <section id="contact" class="scroll-animate" data-aos="fade-up">
           <p class="section__text__p1">Get in Touch</p>
           <h1 class="title">Contact Me</h1>
           <div class="contact-info-upper-container">
@@ -331,7 +338,7 @@
             </div>
           </div>
         </section>
-        <footer>
+        <footer class="scroll-animate" data-aos="fade-up">
           <nav>
             <div class="nav-links-container">
               <ul class="nav-links">
@@ -344,7 +351,9 @@
           </nav>
           <p>Copyright &#169; 2024 Laxman Desai. All Rights Reserved.</p>
         </footer>
-    
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
