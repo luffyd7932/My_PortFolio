@@ -102,3 +102,10 @@
     }
   }
   
+
+  @media (max-width: 768px) {
+    .scroll-animate {
+      transform: translateY(40px); 
+    }
+  }
+  
